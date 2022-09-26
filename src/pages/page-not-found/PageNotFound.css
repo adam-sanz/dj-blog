@@ -1,0 +1,16 @@
+.not-found-container {
+    margin: auto;
+    text-align: center;
+}
+
+.not-found-container button {
+    border: none;
+        font-size: 12px;
+        letter-spacing: 4px;
+        color: white;
+        background: #958359;
+        text-transform: uppercase;
+        padding: 4px;
+        cursor: pointer;
+}
+

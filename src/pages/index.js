@@ -1,0 +1,6 @@
+export { MainPage } from "./main"
+export { PostInformation } from "./post-information"
+export { PostForm } from "./post-form"
+export { Comment } from "./comment"
+export { CommentInformation } from "./comment-information"
+export { PageNotFound } from "./page-not-found"

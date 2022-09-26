@@ -1,0 +1,39 @@
+.post-form-container {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #F5F5F5;
+    margin: 40px auto;
+    padding: 20px;
+    display: inline-grid;
+}
+
+.post-form-container h2 {
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.post-form-container button {
+    width: 100px;
+    border: none;
+    font-size: 12px;
+    letter-spacing: 4px;
+    color: white;
+    background: #958359;
+    text-transform: uppercase;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.post-form-container button:focus {
+    outline: none;
+}
+
+textarea{
+  border:none;
+  border-bottom: 0.1rem solid #e6e6e6;
+  width: 90%;
+  margin-top:1.5rem;
+  margin-bottom:1rem;
+  resize: none;
+  outline:none;
+}
