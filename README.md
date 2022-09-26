@@ -53,7 +53,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ##### Notes
 
-- I have hard coded the id after creating a new post so when you click through to view the invidual post from the main posts page, you won't see your post.
+- The comments for newly created posts are fetched using a hardcoded id.
 - I would create a separate PostsContext inside src/context/posts-context/PostsContext.js (and move the logic out of App.js).
 - I would explore zustand state management instead of context.
 - I would add unit tests using jest, enzyme and react testing library if I had more time.
